@@ -2,12 +2,8 @@ body {
   background: 
     url(../images/wave.svg) no-repeat bottom center,
     linear-gradient(#333, #333);
-  display: grid;
-    place-content: center;
-  height: 100vh;
   margin: 0;
   padding: 0;
-  width: 100vw;
 }
 
 .red {

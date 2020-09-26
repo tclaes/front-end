@@ -11,7 +11,6 @@
 </script>
 
 <style>
-    @import url('https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap');
     body {
       background: #333;
       display: grid;

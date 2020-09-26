@@ -1,6 +1,10 @@
 <template>
 <div class="grid">
+  <div class="content">
     <h1 class='title'>Front End</h1>
+    <sl-button>Shoelace try button</sl-button>
+  </div>
+    
     <Copyright class="copyright" />
 </div>
 </template>
@@ -24,11 +28,14 @@
     width: 100vw;
   }
 
-  h1 {
-    color: rgb(255, 255, 255);
-    display: flex;
-    place-content: center;
+  .content {
+    display: grid;
     align-items: center;
+    place-content: center;
+  }
+
+  h1 {
+    color: rgb(255, 255, 255);  
     font-family: 'Fredoka One', cursive;
     font-size: 78px;
     padding: 1rem;

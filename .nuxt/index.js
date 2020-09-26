@@ -49,7 +49,7 @@ async function createApp(ssrContext, config = {}) {
   // here we inject the router and store to all child components,
   // making them available everywhere as `this.$router` and `this.$store`.
   const app = {
-    head: {"link":[{"rel":"icon","type":"image\u002Fx-icon","href":"\u002Ffavicon.ico"},{"rel":"stylesheet","href":"https:\u002F\u002Ffonts.googleapis.com\u002Fcss2?family=Fredoka+One&display=swap"}],"meta":[],"style":[],"script":[]},
+    head: {"link":[{"rel":"icon","type":"image\u002Fx-icon","href":"\u002Ffavicon.ico"},{"rel":"stylesheet","href":"https:\u002F\u002Ffonts.googleapis.com\u002Fcss2?family=Fredoka+One&display=swap"},{"rel":"stylesheet","href":"https:\u002F\u002Fcdn.jsdelivr.net\u002Fnpm\u002F@shoelace-style\u002Fshoelace@2.0.0-beta.19\u002Fdist\u002Fshoelace\u002Fshoelace.css"}],"script":[{"type":"module","src":"https:\u002F\u002Fcdn.jsdelivr.net\u002Fnpm\u002F@shoelace-style\u002Fshoelace@2.0.0-beta.19\u002Fdist\u002Fshoelace\u002Fshoelace.esm.js"}],"meta":[],"style":[]},
 
     router,
     nuxt: {

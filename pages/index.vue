@@ -11,15 +11,6 @@
 </script>
 
 <style>
-    body {
-      background: #333;
-      display: grid;
-        place-content: center;
-      height: 100vh;
-      margin: 0;
-      padding: 0;
-      width: 100vw;
-    }
   h1 {
     color: rgb(255, 255, 255);
     font-family: 'Fredoka One', cursive;

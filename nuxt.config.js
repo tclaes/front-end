@@ -9,6 +9,6 @@ export default {
     ],
   },
   css: [
-    '~/assets/css/main.scss',
-  ],
+    '~/assets/css/main.scss'
+  ]
 }

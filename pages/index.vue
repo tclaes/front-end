@@ -13,7 +13,7 @@
     color: rgb(255, 255, 255);
     font-family: 'Fredoka One', cursive;
     font-size: 78px;
-    padding: 2rem;
+    padding: 1rem;
   }
 
   .title::after {

@@ -10,5 +10,8 @@ export default {
   },
   css: [
     '~/assets/css/main.scss'
-  ]
+  ],
+  generate: {
+    fallback: true
+  }
 }

@@ -1,7 +1,5 @@
 <template>
-  <div>
-    <h1>Front End <span style="color: red">.</span></h1>
-  </div>
+    <h1 class='title'>Front End</h1>
 </template>
 
 <script>
@@ -10,11 +8,18 @@
   }
 </script>
 
-<style>
+<style scoped>
   h1 {
     color: rgb(255, 255, 255);
     font-family: 'Fredoka One', cursive;
     font-size: 78px;
     padding: 2rem;
+  }
+
+  .title::after {
+    content:' .';
+    color: red;
+    display: inline-block;
+    padding-left: 1rem;
   }
 </style>

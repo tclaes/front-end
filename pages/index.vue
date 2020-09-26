@@ -11,7 +11,7 @@
 
 <script>
   import Copyright from '~/components/copyright';
-  import Layout from '~/components/layout'
+  import Layout from '~/components/Layout'
   export default {
     components: {
       Copyright,

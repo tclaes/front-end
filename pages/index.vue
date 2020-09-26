@@ -45,7 +45,7 @@
     display: flex;
     grid-row-start: 2;
     justify-content: flex-end;
-    align-items: end;
+    align-items: flex-end;
     padding: 0 1rem;
   }
 

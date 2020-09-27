@@ -1,5 +1,11 @@
 [
   {
+    "name": "Nuxt",
+    "path": "/Nuxt",
+    "component": "/Users/tomcl/Documents/front-end/pages/Nuxt.vue",
+    "chunkName": "pages/Nuxt"
+  },
+  {
     "name": "index",
     "path": "/",
     "component": "/Users/tomcl/Documents/front-end/pages/index.vue",

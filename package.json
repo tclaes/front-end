@@ -11,7 +11,18 @@
     "nuxt": "^2.14.6"
   },
   "devDependencies": {
+    "husky": ">=4",
+    "lint-staged": ">=10",
     "node-sass": "^4.14.1",
+    "prettier": "^2.1.2",
     "sass-loader": "^10.0.2"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
+  },
+  "lint-staged": {
+    "*.{js,css,md}": "prettier --write"
   }
 }
